@@ -150,7 +150,7 @@ function PostCard(
           href={post.pathname}
           title={`Read "${post.title}"`}
         >
-          Read More
+          Leia Mais
         </a>
       </p>
     </div>
@@ -186,7 +186,7 @@ export function PostPage({ post, state }: PostPageProps) {
                 fill="currentColor"
               />
             </svg>
-            Home
+            Principal
           </a>
         </div>
         {post.coverHtml && (
