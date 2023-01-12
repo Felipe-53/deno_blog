@@ -148,7 +148,7 @@ function PostCard(
         <a
           class="leading-tight text-gray-900 dark:text-gray-100 inline-block border-b-1 border-gray-600 hover:text-gray-500 hover:border-gray-500 transition-colors"
           href={post.pathname}
-          title={`Read "${post.title}"`}
+          title={`Leia "${post.title}"`}
         >
           Leia Mais
         </a>
